@@ -1,0 +1,31 @@
+@media(max-width: 1200px) {
+   .cantainer{
+    width: 90%;
+    margin: auto;
+   }
+    .main-navbar{
+        display: none;
+    }
+    .contact-bar{
+        margin: 15px;
+    }
+    nav{
+        display: none;
+    }
+    header .fa-bars{
+        display: flex;
+        justify-content: end;
+        font-size: 23px;
+    }
+    .catalog{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 23px;
+        margin: 20px 0;
+    }
+    .card-items{
+        display: flex;
+        justify-content: start;
+    }
+}
